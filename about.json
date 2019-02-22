@@ -7,14 +7,25 @@
          "primary": "314455",
          "secondary": "f9fafc",
          "tertiary": "00c0e3",
-         "quaternary": "ffffff",
+         "quaternary": "e6eaf2",
          "header_background": "1b1d22",
-         "header_primary": "ffffff",
-         "fill-background": "ffffff",
+         "header_primary": "fefefe",
          "highlight": "ffffff",
          "danger": "e45735",
          "success": "009900",
          "love": "fa6c8d"
-       }
+       },
+       "dark": {
+          "primary": "85a1b9",
+          "secondary": "101622",
+          "tertiary": "00c0e3",
+          "quaternary": "0c111b",
+          "header_background": "1b1d22",
+          "header_primary": "fefefe",
+          "highlight": "212c47",
+          "danger": "e45735",
+          "success": "009900",
+          "love": "fa6c8d"
+        }
    }
 }

@@ -5,9 +5,14 @@
 
 
 // List controls
+.list-controls .btn {
+  height: 38px;
+  border-radius: 3px;
+}
 .list-controls .combo-box .combo-box-header {
   background: $highlight;
-  padding: 15px;
+  padding: 20px;
+  border: 0px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
 
@@ -27,6 +32,34 @@
   outline: 0px;
   .d-icon {
     color: white;
+  }
+}
+
+// Navigation bar
+#navigation-bar {
+  &:first-child {
+    border-radius: 3px 0 0 3px;
+  }
+  &:last-child {
+    border-radius: 0 3px 3px 0;
+    margin-right: -2px;
+  }
+  li {
+    background: $quaternary;
+    margin-right: 2px;
+    a {
+      padding: 10.5px 25px;
+    }
+    a:hover {
+      background-color: transparent;
+      color: $primary;
+    }
+    a.active {
+      color: $primary;
+    }
+  }
+  li:hover {
+    opacity: 0.5;
   }
 }
 
