@@ -6,7 +6,7 @@
 
 // List controls
 .list-controls .combo-box .combo-box-header {
-  background: $fill-background;
+  background: $highlight;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
@@ -40,11 +40,11 @@
       border-bottom: 0px solid transparent;
       box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
       td.category {
-        background: $fill-background;
+        background: $highlight;
         border-radius: 6px 0 0 6px;
       }
       td.topics {
-        background: $fill-background;
+        background: $highlight;
         border-radius: 0 6px 6px 0;
       }
       td {
