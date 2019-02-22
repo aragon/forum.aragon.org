@@ -54,12 +54,15 @@
       background-color: transparent;
       color: $primary;
     }
-    a.active {
-      color: $primary;
-    }
   }
   li:hover {
     opacity: 0.5;
+  }
+  li.active {
+    background-color: $highlight;
+    a {
+      color: $primary;
+    }
   }
 }
 
