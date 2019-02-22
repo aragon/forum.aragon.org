@@ -59,9 +59,10 @@
     opacity: 0.5;
   }
   li.active {
-    background-color: $highlight;
+    background-color: $highlight !important;
     a {
       color: $primary;
+      background-color: transparent;
     }
   }
 }
