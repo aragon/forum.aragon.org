@@ -38,7 +38,8 @@
 // Navigation bar
 #navigation-bar {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
-
+  width: auto;
+  display: flex;
   li:first-child {
     border-radius: 3px 0 0 3px;
   }
