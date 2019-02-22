@@ -22,7 +22,7 @@
   white-space: nowrap;
   cursor: pointer;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0) 0px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
   line-height: 1.5;
   color: rgb(255, 255, 255);
   padding: 8px 15px;
@@ -37,10 +37,12 @@
 
 // Navigation bar
 #navigation-bar {
-  &:first-child {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+
+  li:first-child {
     border-radius: 3px 0 0 3px;
   }
-  &:last-child {
+  li:last-child {
     border-radius: 0 3px 3px 0;
     margin-right: -2px;
   }
