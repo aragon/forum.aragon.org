@@ -1,14 +1,55 @@
-.hello-world-banner {
-    height: 300px;
-    width: 100%;
-    background: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+// header
+.d-header-icons .icon:hover, .d-header-icons .icon:focus {
+  background: transparent;
 }
 
-.hello-world {
-    font-size: 8em;
+
+// List controls
+.list-controls .combo-box .combo-box-header {
+  background: $fill-background;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+}
+
+#create-topic {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0) 0px 1px 1px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  background: linear-gradient(130deg, rgb(0, 180, 230), rgb(0, 240, 224)) transparent;
+  border-width: 0px;
+  border-radius: 3px;
+  outline: 0px;
+  .d-icon {
     color: white;
+  }
+}
+
+
+// Categories
+.category-list {
+  border-collapse: separate;
+  border-spacing: 0 2em;
+  tbody {
+    tr {
+      border-bottom: 0px solid transparent;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+      td.category {
+        background: $fill-background;
+        border-radius: 6px 0 0 6px;
+      }
+      td.topics {
+        background: $fill-background;
+        border-radius: 0 6px 6px 0;
+      }
+      td {
+        padding: 12px 15px;
+      }
+    }
+  }
 }
