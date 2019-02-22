@@ -1,5 +1,19 @@
 {
   "name": "Theme name",
   "about_url": "Theme about url",
-  "license_url": "https://github.com/delfipolito/discourse-theme/blob/master/LICENSE"
+  "license_url": "https://github.com/delfipolito/discourse-theme/blob/master/LICENSE",
+  "color_schemes": {
+      "light": {
+         "primary": "314455",
+         "secondary": "f9fafc",
+         "tertiary": "00c0e3",
+         "quaternary": "ffffff",
+         "header_background": "1b1d22",
+         "header_primary": "ffffff",
+         "highlight": "ffff4d",
+         "danger": "e45735",
+         "success": "009900",
+         "love": "fa6c8d"
+       }
+   }
 }
