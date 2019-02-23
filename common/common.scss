@@ -37,9 +37,9 @@
 
 // Navigation bar
 #navigation-bar {
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
   width: auto;
-  display: flex;
+  display: flex!important;
+  
   li:first-child {
     border-radius: 3px 0 0 3px;
   }
@@ -49,6 +49,7 @@
   }
   li {
     background: $quaternary;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
     margin-right: 2px;
     a {
       padding: 10.5px 25px;
@@ -89,6 +90,40 @@
       }
       td {
         padding: 12px 15px;
+      }
+    }
+  }
+}
+
+.topic-list {
+  thead {
+    tr {
+      border-bottom: 0px;
+      th {
+        background: transparent
+      }
+    }
+  }
+  tbody {
+    border-top: 0px;
+    box-shadow: rgba(0,0,0,0.07) 0px 4px 6px 0px;
+    td {
+      background: $highlight;
+    }
+    tr:first-child {
+      td:first-child {
+        border-top-left-radius: 6px;
+      }
+      td:last-child {
+        border-top-right-radius: 6px;
+      }
+    }
+    tr:last-child {
+      td:first-child {
+        border-bottom-left-radius: 6px;
+      }
+      td:last-child {
+        border-bottom-right-radius: 6px;
       }
     }
   }
