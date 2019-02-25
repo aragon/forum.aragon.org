@@ -4,25 +4,25 @@
   "license_url": "https://github.com/delfipolito/discourse-theme/blob/master/LICENSE",
   "color_schemes": {
       "light": {
-         "primary": "314455",
+         "primary": "60809C",
          "secondary": "f9fafc",
          "tertiary": "00c0e3",
          "quaternary": "e6eaf2",
-         "header_background": "1b1d22",
-         "header_primary": "fefefe",
+         "header_background": "090D14",
+         "header_primary": "ffffff",
          "highlight": "ffffff",
          "danger": "e45735",
          "success": "009900",
          "love": "fa6c8d"
        },
        "dark": {
-          "primary": "85a1b9",
+          "primary": "87A3BC",
           "secondary": "101622",
           "tertiary": "00c0e3",
           "quaternary": "0c111b",
-          "header_background": "1b1d22",
-          "header_primary": "fefefe",
-          "highlight": "212c47",
+          "header_background": "090D14",
+          "header_primary": "ffffff",
+          "highlight": "212C47",
           "danger": "e45735",
           "success": "009900",
           "love": "fa6c8d"
