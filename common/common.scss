@@ -159,3 +159,13 @@ body {
   border: 0px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
+
+
+
+// Inside a topic
+article div.row {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+  background: $highlight;
+  max-width: 772px;
+  border-radius: 3px;
+}
