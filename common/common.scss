@@ -243,3 +243,8 @@ span.post-count {
 .topic-body .regular {
   color: $header-background;
 }
+
+.topic-body.highlighted {
+  background: transparent;
+  animation: background-fade-highlight 0s ease-out;
+}
