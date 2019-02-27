@@ -11,7 +11,7 @@
          "header_background": "090D14",
          "header_primary": "ffffff",
          "highlight": "ffffff",
-         "danger": "e45735",
+         "danger": "DE5739",
          "success": "009900",
          "love": "fa6c8d"
        },
@@ -23,7 +23,7 @@
           "header_background": "090D14",
           "header_primary": "ffffff",
           "highlight": "212C47",
-          "danger": "e45735",
+          "danger": "DE5739",
           "success": "009900",
           "love": "fa6c8d"
         }

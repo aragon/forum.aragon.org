@@ -1,6 +1,6 @@
 // Font
 body {
-  font-family: 'HankenGroteskRegular', sans-serif;
+  font-family: "HankenGroteskRegular", sans-serif;
 }
 
 // header
@@ -160,8 +160,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
 
-
-
 // Inside a topic
 article div.row {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
@@ -174,4 +172,20 @@ article div.row {
 aside.onebox {
   background: $love;
   border: 0px solid transparent;
+}
+
+.embedded-posts.bottom .row .topic-avatar,
+.embedded-posts.bottom .row .topic-body {
+  border-top: 0;
+}
+
+.embedded-posts {
+  border: 0px;
+}
+
+nav.post-controls button.has-like .d-icon,
+nav.post-controls .like-button:hover .d-icon,
+nav.post-controls button.like.d-hover .d-icon,
+nav.post-controls button.like:focus .d-icon {
+  color: $danger;
 }
