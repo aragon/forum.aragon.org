@@ -193,11 +193,24 @@ nav.post-controls button.like.d-hover .d-icon,
 nav.post-controls button.like:focus .d-icon {
   color: $danger;
 }
+.post-info.edits a {
+  color: #F5A623;
+}
+
+// Post Icons
+.btn-flat .d-icon,
+nav.post-controls a, nav.post-controls button,
+nav.post-controls .like-button .like-count,
+.topic-meta-data .post-info a {
+  color: #62829E;
+}
+
 
 // Text colors
 .category-list tbody .category h3 a[href],
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
-.latest-topic-list-item .main-link a.title {
+.latest-topic-list-item .main-link a.title,
+.topic-body .regular {
   color: $header-background;
 }
