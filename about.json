@@ -8,7 +8,7 @@
          "secondary": "f9fafc",
          "tertiary": "00c0e3",
          "quaternary": "e6eaf2",
-         "header_background": "090D14",
+         "header_background": "2D4051",
          "header_primary": "ffffff",
          "highlight": "ffffff",
          "danger": "DE5739",
@@ -16,11 +16,11 @@
          "love": "fa6c8d"
        },
        "dark": {
-          "primary": "87A3BC",
+          "primary": "86A2BA",
           "secondary": "101622",
           "tertiary": "00c0e3",
           "quaternary": "0c111b",
-          "header_background": "090D14",
+          "header_background": "ffffff",
           "header_primary": "ffffff",
           "highlight": "212C47",
           "danger": "DE5739",

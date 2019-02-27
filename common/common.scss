@@ -4,6 +4,9 @@ body {
 }
 
 // header
+.d-header {
+  background-color: #090d14;
+}
 .d-header-icons .icon:hover,
 .d-header-icons .icon:focus {
   background: transparent;
@@ -59,7 +62,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
     margin-right: 2px;
     a {
-      padding: 10.5px 25px;
+      padding: 11.5px 25px;
+      font-size: 15px;
     }
     a:hover {
       background-color: transparent;
@@ -188,4 +192,12 @@ nav.post-controls .like-button:hover .d-icon,
 nav.post-controls button.like.d-hover .d-icon,
 nav.post-controls button.like:focus .d-icon {
   color: $danger;
+}
+
+// Text colors
+.category-list tbody .category h3 a[href],
+.topic-list-main-link a.title,
+.topic-list .main-link a.title,
+.latest-topic-list-item .main-link a.title {
+  color: $header-background;
 }
