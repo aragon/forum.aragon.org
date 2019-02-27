@@ -258,7 +258,7 @@ aside.quote .title {
   border-left: 5px solid darken($love, 10%);
   background-color: $love;
 }
-aside.quote blockquote {
+aside.quote blockquote, blockquote {
   border-left: 5px solid darken($love, 10%);
   background-color: $love;
 }
