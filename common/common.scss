@@ -265,6 +265,15 @@ aside.quote blockquote, blockquote {
 .reply .row {
   background: darken($love, 2.5%);
 }
+.topic-map {
+  background: $love;;
+  border: 1px solid $love;
+  margin-left: -45px;
+}
+.topic-map .buttons .btn {
+  background: darken($love, 10%);
+}
+
 // Top topics
 
 .select-kit .select-kit-row.is-selected {
