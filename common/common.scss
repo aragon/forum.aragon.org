@@ -187,24 +187,38 @@ aside.onebox {
   border: 0px;
 }
 
+#topic-title h1 a {
+  color: $header-background;
+  line-height: 2;
+}
+
 nav.post-controls button.has-like .d-icon,
 nav.post-controls .like-button:hover .d-icon,
 nav.post-controls button.like.d-hover .d-icon,
 nav.post-controls button.like:focus .d-icon {
   color: $danger;
 }
+
 .post-info.edits a {
-  color: #F5A623;
+  color: #f5a623 !important;
+}
+
+.badge-wrapper.bullet .badge-category-parent-bg,
+.badge-wrapper.bullet .badge-category-bg {
+  width: 3px;
+  height: 14px;
+  position: relative;
+  bottom: -4px;
 }
 
 // Post Icons
 .btn-flat .d-icon,
-nav.post-controls a, nav.post-controls button,
+nav.post-controls a,
+nav.post-controls button,
 nav.post-controls .like-button .like-count,
 .topic-meta-data .post-info a {
-  color: #62829E;
+  color: #62829e;
 }
-
 
 // Text colors
 .category-list tbody .category h3 a[href],
