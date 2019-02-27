@@ -248,3 +248,25 @@ span.post-count {
   background: transparent;
   animation: background-fade-highlight 0s ease-out;
 }
+
+.list-cell, .table-heading, .category-list td, .category-list th {
+  color: $primary;
+}
+
+
+aside.quote .title {
+  border-left: 5px solid darken($love, 10%);
+  background-color: $love;
+}
+aside.quote blockquote {
+  border-left: 5px solid darken($love, 10%);
+  background-color: $love;
+}
+.reply .row {
+  background: darken($love, 5%);
+}
+// Top topics
+
+.select-kit .select-kit-row.is-selected {
+    background: #737373;
+}
