@@ -304,6 +304,17 @@ aside.quote blockquote, blockquote {
   h4 {
     color: $primary;
   }
+
+}
+
+@media only screen and (min-width: 394px) and (max-width: 704px) {
+  .topic-map  {
+    ul {
+      li:first-child, li:nth-child(2), li.avatars {
+        width: 100%;
+      }
+    }
+  }
 }
 
 
