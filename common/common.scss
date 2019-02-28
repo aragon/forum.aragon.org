@@ -182,7 +182,11 @@ aside.onebox {
   background: $love;
   border: 0px solid transparent;
 }
-
+.names span a {
+  color: $header-background;
+  font-size: 18px;
+  line-height: 45px;
+}
 .embedded-posts.bottom .row .topic-avatar,
 .embedded-posts.bottom .row .topic-body {
   border-top: 0;
@@ -269,10 +273,34 @@ aside.quote blockquote, blockquote {
   background: $love;;
   border: 1px solid $love;
   margin-left: -45px;
+
+  .map {
+     li {
+       padding: 7px 15px;
+     }
+     .number {
+       color: $header-background;
+     }
+  }
+  ul {
+    li:first-child, li:nth-child(2) {
+      border-right: 1px solid lighten($love, 5%);
+    }
+  }
+  li.avatars {
+    border-left: 1px solid lighten($love, 5%);
+     .avatar {
+       margin-right: 7px;
+     }
+  }
+  .buttons .btn {
+    background: darken($love, 10%);
+  }
+  h4 {
+    color: $primary;
+  }
 }
-.topic-map .buttons .btn {
-  background: darken($love, 10%);
-}
+
 
 // Top topics
 
