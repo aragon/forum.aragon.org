@@ -1,0 +1,9 @@
+.topic-map {
+  max-width: calc(100% + 30px);
+
+  ul {
+    li:first-child, li:nth-child(2), li.avatars {
+      width: 100%;
+    }
+  }
+}

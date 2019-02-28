@@ -273,6 +273,7 @@ aside.quote blockquote, blockquote {
   background: $love;;
   border: 1px solid $love;
   margin-left: -45px;
+  max-width: calc(100% + 30px);
 
   .map {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
