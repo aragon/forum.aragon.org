@@ -546,3 +546,12 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 .featured-posts-container article:nth-child(2) .post-card-image {
   min-height: 350px;
 }
+@media (max-width: 745px) {
+  .footer-container {
+    grid-template-columns: 33% !important;
+  }
+  .mobile-full {
+    grid-column-start: 1 !important;
+    grid-column-end: 4 !important;
+  }
+}
