@@ -343,7 +343,11 @@ aside.quote blockquote, blockquote {
 .user-menu .notifications li {
   background: transparent;
 }
-.user-menu .notifications li:hover, .user-menu .notifications li:focus {
+.user-menu .notifications li:hover, .user-menu .notifications li:focus, .select-kit .select-kit-row.is-highlighted {
   background-color: lighten($tertiary, 40%);
   opacity: 0.8;
+}
+.menu-panel li a:hover, .menu-panel li a:focus, .menu-panel li.heading a:hover, .menu-panel li.heading a:focus {
+  background-color: transparent;
+  outline: none;
 }
