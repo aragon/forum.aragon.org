@@ -25,7 +25,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
 
-#create-topic {
+#create-topic, #display-modes .btn-danger {
   letter-spacing: 0.5px;
   font-size: 15px;
   white-space: nowrap;
@@ -322,4 +322,28 @@ aside.quote blockquote, blockquote {
 
 .select-kit .select-kit-row.is-selected {
     background: #737373;
+}
+
+
+// History display modes
+.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  background: linear-gradient(130deg, rgb(0, 180, 230), rgb(0, 240, 224)) transparent;
+  opacity: 0.5;
+  border-radius: 6px;
+  .d-icon {
+    color: rgb(255, 255, 255);
+  }
+}
+
+// Notifications
+.user-menu .notifications li {
+  background: transparent;
+}
+.user-menu .notifications li:hover, .user-menu .notifications li:focus {
+  background-color: lighten($tertiary, 40%);
+  opacity: 0.8;
 }
