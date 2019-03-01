@@ -429,7 +429,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 
 // Footer
 .footer-section {
-  background-color: #f9fafc;
+  background-color: $secondary;
   width: 100%;
   padding: 30px 15px;
   position: relative;
@@ -440,7 +440,9 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   width: 95%;
   margin: auto;
 }
-
+.logo-footer-img {
+  height: 50px;
+}
 .footer-container {
   display: grid;
   grid-template-columns: 16.66% 16.66% 16.66% 16.66% 33.32%;
@@ -494,8 +496,10 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 }
 .form-input {
   line-height: 2;
-  border: solid 0px transparent;
-  border-bottom: solid 1px #d8d8d8;
+  border-top: 0!important;
+  border-left: 0!important;
+  border-right: 0!important;
+  border-bottom: solid 1px #d8d8d8!important;
   background: transparent;
   outline: none;
 }
@@ -546,6 +550,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 .featured-posts-container article:nth-child(2) .post-card-image {
   min-height: 350px;
 }
+
 @media (max-width: 745px) {
   .footer-container {
     grid-template-columns: 33% !important;
