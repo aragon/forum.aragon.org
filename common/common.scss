@@ -379,8 +379,14 @@ button.period-chooser-header, button.period-chooser-header:hover {
   h2 {
     font-size: 20px;
     .top-date-string {
-      font-size: 15px;
+      font-size: 15px!important;
       margin-left: 14px;
     }
   }
+}
+
+.btn {
+  line-height: 1.5;
+  border-radius: 6px;
+  padding: 8px 15px;
 }
