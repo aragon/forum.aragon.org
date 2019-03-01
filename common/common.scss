@@ -410,3 +410,15 @@ button.period-chooser-header, button.period-chooser-header:hover {
     color: white;
   }
 }
+nav.post-controls button {
+  line-height: 1.5;
+}
+nav.post-controls button.d-hover, nav.post-controls button:focus {
+  border-radius: 6px;
+}
+.timeline-container .topic-timeline .timeline-handle {
+  background-color: $tertiary;
+}
+.timeline-container .topic-timeline .timeline-scrollarea {
+  border-color: $tertiary;
+}
