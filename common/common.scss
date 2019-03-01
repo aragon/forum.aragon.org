@@ -25,7 +25,8 @@ body {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
 }
 
-#create-topic, #display-modes .btn-danger {
+#create-topic,
+#display-modes .btn-danger {
   letter-spacing: 0.5px;
   font-size: 15px;
   white-space: nowrap;
@@ -212,7 +213,6 @@ nav.post-controls button.like:focus .d-icon {
   color: #f5a623 !important;
 }
 
-
 #topic-title {
   .badge-wrapper.bullet .badge-category-parent-bg,
   .badge-wrapper.bullet .badge-category-bg {
@@ -222,7 +222,6 @@ nav.post-controls button.like:focus .d-icon {
     bottom: -4px;
   }
 }
-
 
 // Post Icons
 .btn-flat .d-icon,
@@ -253,16 +252,19 @@ span.post-count {
   animation: background-fade-highlight 0s ease-out;
 }
 
-.list-cell, .table-heading, .category-list td, .category-list th {
+.list-cell,
+.table-heading,
+.category-list td,
+.category-list th {
   color: $primary;
 }
-
 
 aside.quote .title {
   border-left: 5px solid darken($love, 10%);
   background-color: $love;
 }
-aside.quote blockquote, blockquote {
+aside.quote blockquote,
+blockquote {
   border-left: 5px solid darken($love, 10%);
   background-color: $love;
 }
@@ -270,7 +272,7 @@ aside.quote blockquote, blockquote {
   background: darken($love, 2.5%);
 }
 .topic-map {
-  background: $love;;
+  background: $love;
   border: 1px solid $love;
   margin-left: -45px;
   max-width: calc(100% + 30px);
@@ -280,23 +282,24 @@ aside.quote blockquote, blockquote {
   .map {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
     border-top: 0px;
-     li {
-       padding: 7px 15px;
-     }
-     .number {
-       color: $header-background;
-     }
+    li {
+      padding: 7px 15px;
+    }
+    .number {
+      color: $header-background;
+    }
   }
   ul {
-    li:first-child, li:nth-child(2) {
+    li:first-child,
+    li:nth-child(2) {
       border-right: 1px solid lighten($love, 5%);
     }
   }
   li.avatars {
     border-left: 1px solid lighten($love, 5%);
-     .avatar {
-       margin-right: 7px;
-     }
+    .avatar {
+      margin-right: 7px;
+    }
   }
   .buttons .btn {
     background: darken($love, 10%);
@@ -304,34 +307,35 @@ aside.quote blockquote, blockquote {
   h4 {
     color: $primary;
   }
-
 }
 
 @media only screen and (min-width: 394px) and (max-width: 704px) {
-  .topic-map  {
+  .topic-map {
     ul {
-      li:first-child, li:nth-child(2), li.avatars {
+      li:first-child,
+      li:nth-child(2),
+      li.avatars {
         width: 100%;
       }
     }
   }
 }
 
-
 // Top topics
 
 .select-kit .select-kit-row.is-selected {
-    background: #737373;
+  background: #737373;
 }
 
-
 // History display modes
-.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
   line-height: 1.5;
   color: rgb(255, 255, 255);
   padding: 8px 15px;
-  background: linear-gradient(130deg, rgb(0, 180, 230), rgb(0, 240, 224)) transparent;
+  background: linear-gradient(130deg, rgb(0, 180, 230), rgb(0, 240, 224))
+    transparent;
   opacity: 0.5;
   border-radius: 6px;
   .d-icon {
@@ -343,11 +347,36 @@ aside.quote blockquote, blockquote {
 .user-menu .notifications li {
   background: transparent;
 }
-.user-menu .notifications li:hover, .user-menu .notifications li:focus, .select-kit .select-kit-row.is-highlighted {
+.user-menu .notifications li:hover,
+.user-menu .notifications li:focus,
+.select-kit .select-kit-row.is-highlighted,
+.select-kit .select-kit-row.is-selected {
   background-color: lighten($tertiary, 40%);
   opacity: 0.8;
 }
-.menu-panel li a:hover, .menu-panel li a:focus, .menu-panel li.heading a:hover, .menu-panel li.heading a:focus {
+.menu-panel li a:hover,
+.menu-panel li a:focus,
+.menu-panel li.heading a:hover,
+.menu-panel li.heading a:focus {
   background-color: transparent;
   outline: none;
+}
+
+// Time selector
+.select-kit.dropdown-select-box.period-chooser
+  .period-chooser-row
+  .top-date-string {
+  font-size: 14px;
+  margin-left: 14px;
+  line-height: 22px;
+}
+
+
+.period-chooser-header, .period-chooser-header:hover {
+  box-shadow: none;
+  line-height: 1.5;
+  opacity: 1;
+  h2 {
+    font-size: 20px;
+  }
 }
