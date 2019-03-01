@@ -372,11 +372,15 @@ blockquote {
 }
 
 
-.period-chooser-header, .period-chooser-header:hover {
+button.period-chooser-header, button.period-chooser-header:hover {
   box-shadow: none;
   line-height: 1.5;
   opacity: 1;
   h2 {
     font-size: 20px;
+    .top-date-string {
+      font-size: 15px;
+      margin-left: 14px;
+    }
   }
 }
