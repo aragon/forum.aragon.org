@@ -26,7 +26,7 @@ body {
 }
 
 #create-topic,
-#display-modes .btn-danger {
+#display-modes .btn-danger, button.btn-primary {
   letter-spacing: 0.5px;
   font-size: 15px;
   white-space: nowrap;
@@ -389,4 +389,24 @@ button.period-chooser-header, button.period-chooser-header:hover {
   line-height: 1.5;
   border-radius: 6px;
   padding: 8px 15px;
+}
+
+.btn-primary {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px 0px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  background: linear-gradient(130deg, rgb(0, 180, 230), rgb(0, 240, 224))
+    transparent;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: 0px;
+  .d-icon {
+    color: white;
+  }
 }
