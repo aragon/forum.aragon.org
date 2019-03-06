@@ -553,10 +553,10 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 
 // Hero
 .hero {
-  background: #121317;
+  background: #0B1018;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   position: absolute;
   right: 0;
@@ -578,10 +578,11 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 
 
 @media (min-width: 780px) {
-  .hero {
+  div.hero {
+    justify-content: space-around;
     h1 {
       display: block;
-      font-family: "HankenGroteskRegular", sans-serif;
+      font-family: "HKGroteskLight", "HankenGroteskRegular", sans-serif;
       line-height: 56px;
       font-size: 42px;
       color: #FFFFFF;
