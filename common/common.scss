@@ -538,20 +538,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   color: black;
   box-shadow: black 0 -1px 0 inset;
 }
-.collection-cards {
-  flex: 1 1 400px;
-}
 
-.post-card.post.featured {
-  flex: 1 1 100%;
-}
-
-.featured-feed > .post-card.post.featured ~ .post-card.post.featured {
-  flex: 1 1 300px;
-}
-.featured-posts-container article:nth-child(2) .post-card-image {
-  min-height: 350px;
-}
 
 @media (max-width: 745px) {
   .footer-container {
