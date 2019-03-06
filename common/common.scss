@@ -567,4 +567,22 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 // Hero
 .hero {
   background: #121317;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  height: 260px;
+  overflow: hidden;
+  img {
+    margin-top: 83px;
+  }
+  h1 {
+    font-family: "HankenGroteskRegular", sans-serif;
+    line-height: 56px;
+    font-size: 42px;
+    color: #FFFFFF;
+  }
 }
