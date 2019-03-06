@@ -429,7 +429,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 
 // Footer
 .footer-section {
-  background-color: #f9fafc;
+  background-color: $secondary;
   width: 100%;
   padding: 30px 15px;
   position: relative;
@@ -499,7 +499,8 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   border-top: 0!important;
   border-left: 0!important;
   border-right: 0!important;
-  border-bottom: solid 1px #7f819880 !important;
+  
+  border-bottom: solid 1px #d8d8d8!important;
   background: transparent;
   outline: none;
   padding-left: 0!important;
