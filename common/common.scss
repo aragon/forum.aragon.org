@@ -574,7 +574,6 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
     display: flex;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     top: 38%;
     transform: translate(-50%);
     color: white;
@@ -603,6 +602,8 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
       font-size: 42px;
       font-weight: 100;
       color: #FFFFFF;
+      transform: none;
+      position: inherit;
     }
   }
 }
