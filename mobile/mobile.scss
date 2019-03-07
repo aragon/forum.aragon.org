@@ -2,3 +2,7 @@
   margin-left: 0;
   max-width: 95%;
 }
+
+#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail) {
+  max-width: 100%;
+}
