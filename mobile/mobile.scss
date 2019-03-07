@@ -4,5 +4,9 @@
 }
 
 #reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail) {
-  max-width: 100%;
+  max-width: 100%!important;
+}
+
+article div.row {
+  padding: 15px;
 }

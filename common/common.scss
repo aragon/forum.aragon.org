@@ -563,7 +563,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   width: 100%;
   position: absolute;
   right: 0;
-  top: 60px;
+  top: 54px;
   height: 260px;
   overflow: hidden;
   img {
@@ -571,7 +571,18 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
     overflow: hidden;
   }
   h1 {
-    display: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38%;
+    transform: translate(-50%);
+    color: white;
+    font-family: "HKGroteskLight", "HankenGroteskRegular", sans-serif;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
   }
 }
 
@@ -584,6 +595,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 @media (min-width: 780px) {
   div.hero {
     justify-content: space-around;
+    top: 60px;
     h1 {
       display: block;
       font-family: "HKGroteskLight", "HankenGroteskRegular", sans-serif;
