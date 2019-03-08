@@ -616,3 +616,10 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 .embedded-posts .topic-avatar {
   padding-left: 0;
 }
+.latest-topic-list .table-heading {
+  line-height: 5.5em;
+}
+
+body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
+    display: none;
+}
