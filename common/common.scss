@@ -628,6 +628,9 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
   color: white;
 }
 .latest-topic-list {
+  .table-heading {
+    color: $primary;
+  }
   .latest-topic-list-item {
     padding: 1.5em;
     background: $highlight;
@@ -640,7 +643,7 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
     border-top-right-radius: 6px;
   }
 
-  .latest-topic-list-item:last-child {
+  .latest-topic-list-item:nth-child(n-1)  {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
   }
