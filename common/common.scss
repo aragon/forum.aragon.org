@@ -627,3 +627,27 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
 .extra-info-wrapper .topic-link {
   color: white;
 }
+.latest-topic-list {
+  .latest-topic-list-item {
+    padding: 1.5em;
+    background: $highlight;
+  }
+  .table-heading:first-child {
+    border-bottom: 0 transparent;
+  }
+  .latest-topic-list-item:nth-child(2) {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+
+  .latest-topic-list-item:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
+
+.more-topics {
+  a {
+    width: 100%
+  }
+}
