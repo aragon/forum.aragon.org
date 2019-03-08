@@ -668,7 +668,6 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
 
 
 .select-kit.combo-box.category-drop.bar.has-selection .category-drop-header {
-  background: #212c47;
   padding: 20px;
   border: 0px;
   border-radius: 6px;
@@ -677,11 +676,29 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
 .select-kit.combo-box .select-kit-row {
   padding: 18px;
 }
-a.title:visited:not(.badge-notification), .topic-list .anon .main-link a.title:visited:not(.badge-notification), .anon .latest-topic-list-item .main-link a.title:visited:not(.badge-notification), .latest-topic-list-item .anon .main-link a.title:visited:not(.badge-notification) {
+a.title:visited:not(.badge-notification),
+.topic-list-item.visited a.title:not(.badge-notification),
+.topic-list .anon .main-link a.title:visited:not(.badge-notification),
+.anon .latest-topic-list-item .main-link a.title:visited:not(.badge-notification),
+.latest-topic-list-item .anon .main-link a.title:visited:not(.badge-notification),
+.topic-list-item.visited a.title:not(.badge-notification),
+.latest-topic-list-item.visited a.title:not(.badge-notification),
+.category-topic-link.visited a.title:not(.badge-notification) {
   color: $primary;
 }
 .subcategories {
   span.badge-category {
     color: $header_background;
   }
+}
+
+a.mention, a.mention-group {
+  color:; $tertiary
+}
+.names .new_user a, .names .user-title, .names .user-title a {
+  color: $primary;
+}
+.nav-pills>li.active>a, .nav-pills>li a.active {
+  color: $header_background;
+  background-color: $quaternary;
 }
