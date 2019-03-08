@@ -366,7 +366,7 @@ blockquote {
 .alert.alert-info {
   background-color: lighten($tertiary, 40%);
   opacity: 0.8;
-  color: $primary;
+  color: darken($primary, 15%);
   border-radius: 6px;
 }
 
