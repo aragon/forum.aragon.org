@@ -86,7 +86,12 @@ body {
 // Categories
 .category-list {
   border-collapse: separate;
-  border-spacing: 0 2em;
+  border-spacing: 0 20px;
+  thead {
+    th {
+      padding-bottom: 0;
+    }
+  }
   tbody {
     tr {
       border-bottom: 0px solid transparent;
@@ -625,7 +630,8 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   padding-left: 0;
 }
 .latest-topic-list .table-heading {
-  line-height: 5.5em;
+  line-height: 61px;
+  padding-bottom: 0;
 }
 
 body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
@@ -654,7 +660,7 @@ body[class*="archetype-"] .hero-container, body[class*="archetype-"] .hero {
     border-top-right-radius: 6px;
   }
 
-  .latest-topic-list-item:nth-child(n-1)  {
+  .latest-topic-list-item:nth-last-child(2)  {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
   }
