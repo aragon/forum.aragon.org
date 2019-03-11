@@ -707,3 +707,8 @@ a.mention, a.mention-group {
   color: $header_background;
   background-color: $quaternary;
 }
+
+.badge-wrapper.bar .badge-category-bg {
+  width: 4px;
+  margin-right: 2px;
+}
