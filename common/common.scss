@@ -1,6 +1,7 @@
 // Font
 body {
   font-family: "HankenGroteskRegular", sans-serif;
+  overflow-x: hidden;
 }
 
 // header
@@ -443,7 +444,7 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
 // Footer
 .footer-section {
   background-color: $header-primary;
-  width: 100%;
+  width: calc(100% - 30px);
   padding: 30px 15px;
   position: relative;
   overflow-x: hidden;
