@@ -212,7 +212,8 @@ aside.onebox {
 // Like button
 nav.post-controls .like-button:hover button,
 nav.post-controls button.d-hover,
-nav.post-controls button:focus {
+nav.post-controls button:focus,
+nav.post-controls .like-button button.like.d-hover .d-icon {
   background: transparent;
   color: #de5739 !important;
 }
