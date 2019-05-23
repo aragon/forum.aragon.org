@@ -3,13 +3,14 @@
 @font-face {
   font-family: 'HankenGroteskRegular';
   src: url($HKGroteskRegular);
+  src: url('https://blog.aragon.org/assets/HKGrotesk-Regular.ttf');
 }
 
 @font-face {
   font-family: 'HKGroteskLight';
   src: url($HKGroteskLight);
+  src: url('https://blog.aragon.one/assets/HKGrotesk-Light.ttf');
 }
-
 body {
   font-family: "HankenGroteskRegular", sans-serif;
   overflow-x: hidden;
@@ -755,4 +756,23 @@ a.mention-group {
 
 #topic-title .title-wrapper {
   margin-bottom: 30px;
+}
+
+.composer-popup {
+  color: white;
+}
+
+.cooked {
+  background-color: #333333c4;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+}
+
+#topic-title h1 {
+  position: relative;
+}
+#topic-title h1 .d-icon-envelope {
+  position: relative;
+  top: 11px;
 }
