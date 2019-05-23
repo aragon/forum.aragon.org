@@ -3,13 +3,11 @@
 @font-face {
   font-family: 'HankenGroteskRegular';
   src: url($HKGroteskRegular);
-  src: url('https://blog.aragon.org/assets/HKGrotesk-Regular.ttf');
 }
 
 @font-face {
   font-family: 'HKGroteskLight';
   src: url($HKGroteskLight);
-  src: url('https://blog.aragon.one/assets/HKGrotesk-Light.ttf');
 }
 body {
   font-family: "HankenGroteskRegular", sans-serif;
