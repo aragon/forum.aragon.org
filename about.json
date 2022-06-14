@@ -2,6 +2,10 @@
   "name": "Theme name",
   "about_url": "Theme about url",
   "license_url": "https://github.com/aragon/forum/blob/master/LICENSE",
+  "assets": {
+    "HKGroteskRegular": "assets/HankenGrotesk-Regular.otf",
+    "HKGroteskLight": "assets/HankenGrotesk-Light.otf"
+  },
   "color_schemes": {
       "light": {
          "primary": "60809C",
