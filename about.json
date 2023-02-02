@@ -3,32 +3,32 @@
   "about_url": "Theme about url",
   "license_url": "https://github.com/aragon/forum/blob/master/LICENSE",
   "assets": {
-    "HKGroteskRegular": "assets/HankenGrotesk-Regular.otf",
-    "HKGroteskLight": "assets/HankenGrotesk-Light.otf"
+    "ManropeRegular": "assets/Manrope-Regular.otf",
+    "ManropeLight": "assets/Manrope-Light.otf"
   },
   "color_schemes": {
       "light": {
-         "primary": "60809C",
-         "secondary": "f9fafc",
-         "tertiary": "00c0e3",
-         "quaternary": "e6eaf2",
-         "header_background": "2D4051",
+         "primary": "001F5C",
+         "secondary": "F8FBFF",
+         "tertiary": "3164FA",
+         "quaternary": "DEECFF",
+         "header_background": "3164FA",
          "header_primary": "ffffff",
          "highlight": "ffffff",
-         "danger": "DE5739",
-         "success": "009900",
+         "danger": "FB7467",
+         "success": "B2E040",
          "love": "F9FAFC"
        },
        "dark": {
           "primary": "86A2BA",
           "secondary": "101622",
-          "tertiary": "00c0e3",
+          "tertiary": "3164FA",
           "quaternary": "0c111b",
           "header_background": "ffffff",
           "header_primary": "090D14",
           "highlight": "212C47",
-          "danger": "DE5739",
-          "success": "009900",
+          "danger": "FB7467",
+          "success": "B2E040",
           "love": "293758"
         }
    }
